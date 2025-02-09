@@ -1,0 +1,177 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "openssl@latest": {
+      "last_modified": "2025-02-03T20:50:02Z",
+      "resolved": "github:NixOS/nixpkgs/494b2407ef95997176211a8758638205916873a9#openssl",
+      "source": "devbox-search",
+      "version": "3.3.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/5syd1v3ki2v5a595r13007brsvch22pj-openssl-3.3.2-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/xhaxfkh8awr1hjyq796qy0x5f39n2539-openssl-3.3.2-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/hyr1h13m2z7yki28rl05d9ha9bbhw1b6-openssl-3.3.2-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/y0nklvfv5p8ll9ac1gp34gm9yp3l6nvz-openssl-3.3.2-doc"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/0iqy9n7x6ygvbcvfz8nv9xj8dbhk9il3-openssl-3.3.2"
+            }
+          ],
+          "store_path": "/nix/store/5syd1v3ki2v5a595r13007brsvch22pj-openssl-3.3.2-bin"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/sghnmx6rm5ln488d6mzwc69gk1qkc3b1-openssl-3.3.2-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/zxz232462dn62c94fdfvjm3gm5mvn5pc-openssl-3.3.2-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/kqwbx3w4g3gc8n7k1bng2smdjffkzk4i-openssl-3.3.2-doc"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/v7r15c670pqjjxn6axa27limfh5bj25w-openssl-3.3.2"
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/m393myw646x301iwf105ii6l587dk65l-openssl-3.3.2-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/bzf3mzf6zkr9a2850c1db77fzqa7wfqx-openssl-3.3.2-dev"
+            }
+          ],
+          "store_path": "/nix/store/sghnmx6rm5ln488d6mzwc69gk1qkc3b1-openssl-3.3.2-bin"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/xiycyz0sjxaqw151f31brbs073db8a7r-openssl-3.3.2-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/mv6sqn6snx5sa965cxk3dmaf01xwslp8-openssl-3.3.2-man",
+              "default": true
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/kw4f8xil45n4yjiqq7dcdfhw63k4wimp-openssl-3.3.2"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/r8wcb1r062042m6p24f33f2kifgh8ylb-openssl-3.3.2-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/j4v7zcsfj3dyf7q9labwccz4qh3bdqrg-openssl-3.3.2-doc"
+            }
+          ],
+          "store_path": "/nix/store/xiycyz0sjxaqw151f31brbs073db8a7r-openssl-3.3.2-bin"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/ppf3qysxs0689bjl8vjmmln4w456nvbm-openssl-3.3.2-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/2h8jny23kfy27pd21xiqv106acs8hrgr-openssl-3.3.2-man",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/084bfiqm9vbqdswgj46bvd5hzkyxshiw-openssl-3.3.2-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/liqflvxvksmwmccjilmky0gwxmdk58x3-openssl-3.3.2-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/91hvfcw33vwmxi6p8h6s6lv2hj80mnvb-openssl-3.3.2-doc"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/5926bc2bqkr0882p4m6yq3wy5brnbwlv-openssl-3.3.2"
+            }
+          ],
+          "store_path": "/nix/store/ppf3qysxs0689bjl8vjmmln4w456nvbm-openssl-3.3.2-bin"
+        }
+      }
+    },
+    "rust-analyzer@latest": {
+      "last_modified": "2025-01-24T01:56:22Z",
+      "resolved": "github:NixOS/nixpkgs/4dfc61e9cd0c26b3bc3e6d6fac3ba10d18959fc4#rust-analyzer",
+      "source": "devbox-search",
+      "version": "2025-01-20",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vm13rngf8bgsyj5spr02yskprp4y9plv-rust-analyzer-2025-01-20",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vm13rngf8bgsyj5spr02yskprp4y9plv-rust-analyzer-2025-01-20"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d91hi49k8qf99nlja223780y5jskyzds-rust-analyzer-2025-01-20",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d91hi49k8qf99nlja223780y5jskyzds-rust-analyzer-2025-01-20"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vg63mmaad8rhcbar4i4mwjqcwr9fhkxc-rust-analyzer-2025-01-20",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vg63mmaad8rhcbar4i4mwjqcwr9fhkxc-rust-analyzer-2025-01-20"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6mkyvjjvsp4ymakvbqvqb3vpdqrffzyf-rust-analyzer-2025-01-20",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6mkyvjjvsp4ymakvbqvqb3vpdqrffzyf-rust-analyzer-2025-01-20"
+        }
+      }
+    }
+  }
+}
