@@ -13,6 +13,10 @@
         "echo building package",
         "nix-build ."
       ],
+      "install" : [
+        "echo installing package",
+        "nix-env -i ./result"
+      ],
       "test": [
         "echo \"Error: no test specified\" && exit 1"
       ]

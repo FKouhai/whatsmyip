@@ -15,6 +15,10 @@ devbox run build
 cd result/bin/
 ./whatsmyip
 ```
+## How to install
+```(bash)
+devbox run install
+```
 ## Developing the package
 Devbox can be used as the primary development environment, which already includes all the necessary packages and dependencies for the project
 
